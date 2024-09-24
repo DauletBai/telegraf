@@ -2,7 +2,7 @@ package webrtc
 
 import (
     "github.com/pion/webrtc/v3"
-    "log"
+    // "log"
 )
 
 func HandleOffer(offer webrtc.SessionDescription) (*webrtc.SessionDescription, error) {
